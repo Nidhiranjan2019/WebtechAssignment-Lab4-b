@@ -52,16 +52,16 @@ Version control enables multiple people to simultaneously work on a single proje
 
 <h2>GIT Commands</h2>
 <ol>
-<li> <span><strong>Fork</strong></span>
-A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+<li> <span><strong>git init</strong></span>
+This command turns a directory into an empty Git repository. This is the first step in creating a repository. After running git init, adding and committing files/directories is possible.
 </li>
-<li><span><strong>Commit</strong></span>
-The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.
+<li><span><strong>git add</strong></span>
+ Adds files in the to the staging area for Git. Before a file is available to commit to a repository, the file needs to be added to the Git index (staging area). There are a few different ways to use git add, by adding entire directories, specific files, or all unstaged files.</li>
 
-Using the "git commit" command only saves a new commit object in the local Git repository.</li>
+<li><span><strong>git commit</strong></span>
+Record the changes made to the files to a local repository. For easy reference, each commit has a unique ID.
 
-<li><span><strong>Push</strong></span>
-The push command can be considered as a tool to transfer commits between local and remote repositories.It is used to publish new local commits on a remote server.
+It’s best practice to include a message with each commit explaining the changes made in a commit. Adding a commit message helps to find a particular change or understanding the changes
 </li>
 </ol>
 <footer align="center">Name- Nidhi Ranjan Roll No. -1906068 Sub Code-CSL3403</footer>
