@@ -33,6 +33,11 @@
      li{
          margin-bottom: 20px;
      }
+     .code{
+         color:white;
+         background-color: black;
+         margin: 10px;
+        }
     </style>
 </head>
 <body>
@@ -54,14 +59,23 @@ Version control enables multiple people to simultaneously work on a single proje
 <ol>
 <li> <span><strong>git init</strong></span>
 This command turns a directory into an empty Git repository. This is the first step in creating a repository. After running git init, adding and committing files/directories is possible.
-</li>
+
+<div class="code"># change directory to codebase<br/>
+$ cd /file/path/to/code<br/>
+# make directory a git repository<br/>
+$ git init</div>
+ </li>
 <li><span><strong>git add</strong></span>
- Adds files in the to the staging area for Git. Before a file is available to commit to a repository, the file needs to be added to the Git index (staging area). There are a few different ways to use git add, by adding entire directories, specific files, or all unstaged files.</li>
+ Adds files in the to the staging area for Git. Before a file is available to commit to a repository, the file needs to be added to the Git index (staging area). There are a few different ways to use git add, by adding entire directories, specific files, or all unstaged files.
+   <div class="code">$ git add <file or directory name></div> 
+   </li>
 
 <li><span><strong>git commit</strong></span>
 Record the changes made to the files to a local repository. For easy reference, each commit has a unique ID.
 
 It’s best practice to include a message with each commit explaining the changes made in a commit. Adding a commit message helps to find a particular change or understanding the changes
+<div class="code"># Adding a commit with message<br/>
+$ git commit -m "Commit message in quotes"</div> 
 </li>
 </ol>
 <footer align="center">Name- Nidhi Ranjan Roll No. -1906068 Sub Code-CSL3403</footer>
